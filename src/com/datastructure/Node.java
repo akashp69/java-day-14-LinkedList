@@ -1,11 +1,12 @@
 package com.datastructure;
 
-public class Node<T> {
+public class Node {
 
-    T data;
-    Node<T> next;
+    int data;
+    Node next;
 
-    public Node(T data){
+    public Node(int data) {
         this.data = data;
+        this.next = null;
     }
 }
